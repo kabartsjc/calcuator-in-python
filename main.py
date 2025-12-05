@@ -1,8 +1,18 @@
 import awm
 
 while True:
-    ch = int(input("Please enter progress\n 1-Addiction\n 2-Extraction\n 3-Division\n 4-Multiply\n 5-Powered\n "
-                   "6-Square\n 7-Factorial\n Choosing:"))
+    ch = int(input(
+    "Please enter progress\n"
+    " 1-Addiction\n"
+    " 2-Extraction\n"
+    " 3-Division\n"
+    " 4-Multiply\n"
+    " 5-Powered\n"
+    " 6-Square\n"
+    " 7-Factorial\n"
+    " Choosing:"
+))
+
     if ch == 1:
         awm.add()
     elif ch == 2:
