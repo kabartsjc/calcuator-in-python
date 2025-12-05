@@ -1,0 +1,12 @@
+name: Basic workflow
+
+on:
+  workflow_dispatch:
+
+jobs:
+  basic-hello-inline-bash:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Say Hello
+        run: echo "Hello World"
