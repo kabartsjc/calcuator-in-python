@@ -1,2 +1,4 @@
 It is a test.
 I made this change only in the test2 branch!
+
+a new line.
