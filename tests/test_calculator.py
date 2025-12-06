@@ -16,4 +16,4 @@ def test_div_function_exists():
 
 
 def test_div_function_exists2():
-    assert hasattr(awm, "barreto")
+    assert hasattr(awm, "ext")
