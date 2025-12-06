@@ -13,3 +13,7 @@ def test_add_function_exists():
 
 def test_div_function_exists():
     assert hasattr(awm, "div")
+
+
+def test_div_function_exists2():
+    assert hasattr(awm, "div")
